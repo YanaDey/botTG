@@ -8,7 +8,7 @@ TOKEN = ""
 
 def echo(update, context):
     txt = update.message.text
-    if txt.lower() in ['хаааай', 'приветики']:
+    if txt.lower() in ['хаааай', 'приветики', 'привет', 'здравствуй']:
         txt = "И тебе привет, друг!"
 
     update.message.reply_text(txt)
